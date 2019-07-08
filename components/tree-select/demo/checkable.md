@@ -20,35 +20,40 @@ const { SHOW_PARENT } = TreeSelect;
 
 const treeData = [
   {
-    title: 'Node1',
-    value: '0-0',
+    title: 'NB',
+    value: 'NB',
     key: '0-0',
     children: [
       {
-        title: 'Child Node1',
-        value: '0-0-0',
+        title: '全部',
+        value: '全部',
         key: '0-0-0',
+      },
+      {
+        title: '传统本',
+        value: '传统本',
+        key: '0-0-1',
       },
     ],
   },
   {
-    title: 'Node2',
-    value: '0-1',
+    title: 'DT',
+    value: 'DT',
     key: '0-1',
     children: [
       {
-        title: 'Child Node3',
-        value: '0-1-0',
+        title: '全部',
+        value: '全部',
         key: '0-1-0',
       },
       {
-        title: 'Child Node4',
-        value: '0-1-1',
+        title: 'AIO',
+        value: 'AIO',
         key: '0-1-1',
       },
       {
-        title: 'Child Node5',
-        value: '0-1-2',
+        title: 'BOX',
+        value: 'BOX',
         key: '0-1-2',
       },
     ],
